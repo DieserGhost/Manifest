@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Automatischer Download</title>
+</head>
+<body>
+    <a id="download-link" href="8.51-download.manifest" download="8.51-download.manifest"></a>
+    <script>
+        document.addEventListener('DOMContentLoaded', (event) => {
+            document.getElementById('download-link').click();
+        });
+    </script>
+</body>
+</html>
